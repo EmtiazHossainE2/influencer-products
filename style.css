@@ -10,6 +10,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     color : #3A3A3A;
+    background: #f1f1f1;
 
 }
 .container{
@@ -231,6 +232,7 @@ nav{
     .header-bottom{
         max-width: 1080px;
         margin: 0 auto;
+        padding: 0 30px;
     }
     .sponsor{
         display: flex;
@@ -256,10 +258,36 @@ nav{
 /*---------------
      Main Area Start  
 -------------------*/
+main{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 
     /*---------- Collection area start ---------- */
     .collection-area h3{
-        margin: 50px;
+        text-align: center;
+        font-size: 28px;
+        color: #3A3A3A;
+        margin: 100px 0 30px ;
+        font-weight: 600;
+    }
+    .popular-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+    .popular-item{
+        background: #ffffff;
+        border-radius: 5%;
+        padding-bottom: 17px;
+    }
+    .popular-item img{
+        padding: 20px 20px 0;
+    }
+    .item-details{
+        padding-left: 20px;
     }
     /*---------- Collection area end ---------- */
 
