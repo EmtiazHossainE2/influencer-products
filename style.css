@@ -1,3 +1,4 @@
+/* google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap'); 
 
 /* ------------- 
@@ -288,6 +289,39 @@ main{
     }
     .item-details{
         padding-left: 20px;
+    }
+    .item-title{
+        color: #18191F;
+        font-weight: 500;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .item-price{
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 24px;
+        margin: 6px 0;
+        font-weight: normal;
+    }
+    .fas.fa-star, .fas.fa-star-half-alt{
+        color: #FB8200;
+        font-size: 12px;
+    }
+    .far.fa-star, .ratings span{
+        font-size: 12px;
+    }
+    .item-stock{
+        color: #787885;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .alink {
+        text-align: right;
+        margin: 50px 0 100px;
+    }
+    .alink a{
+        text-decoration: none;
+        color: rgba(224, 44, 109, 0.87);
+        font-weight: bold;
     }
     /*---------- Collection area end ---------- */
 
