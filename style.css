@@ -227,7 +227,42 @@ nav{
     }
     /*-------- header-banner end ----------*/
 
+    /*-------- header-bottom start ----------*/
+    .header-bottom{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .sponsor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sponsor li{
+        list-style: none;
+        margin: 20px 0;
+    }
+    hr{
+        border: 0;
+        border-bottom: 1px  solid #dddfe2;
+    }
+    /*-------- header-bottom end ----------*/
+
 
 /*---------------
      Header Area End  
+-------------------*/
+
+
+/*---------------
+     Main Area Start  
+-------------------*/
+
+    /*---------- Collection area start ---------- */
+    .collection-area h3{
+        margin: 50px;
+    }
+    /*---------- Collection area end ---------- */
+
+/*---------------
+     Main Area End  
 -------------------*/
