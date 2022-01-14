@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap'); 
 
 /* ------------- 
-    Common styles 
+    Common styles start
 ------------------*/
 *{
     margin: 0;
@@ -21,6 +21,11 @@ h1{
     font-size: 52px;
     color: #E02C6D;
 }
+/* ------------- 
+    Common styles End
+------------------*/
+
+
 /*---------------
      Header Area Start  
 -------------------*/
@@ -58,7 +63,7 @@ nav{
 .fas.fa-cart-plus{
     font-size: 24px;
 }
-    /* header-banner */ 
+    /*---------- header-banner --------------*/ 
     .header-banner{
         display: flex;
         height: 90vh;
@@ -198,7 +203,7 @@ nav{
             }
 
         }
-        /*------------ Animation  -----------*/
+        /*------------ Animation End -----------*/
 
 
     .banner-text{
@@ -220,7 +225,7 @@ nav{
     .fas.fa-arrow-right{
         margin: 0px 8px;
     }
-
+    /*-------- header-banner end ----------*/
 
 
 /*---------------
