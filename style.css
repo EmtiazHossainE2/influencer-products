@@ -281,6 +281,8 @@ main{
         grid-template-columns: repeat(3,1fr);
         row-gap: 30px;
         column-gap: 30px;
+        align-items: center;
+        justify-items: center;
     }
     .popular-item{
         background: #ffffff;
@@ -479,6 +481,9 @@ footer p{
             }
             .popular-items{
                 grid-template-columns: repeat(1,1fr);
+                flex-direction: column;
+                align-items: center;
+                justify-items: center;
             }
             .alink{
                 margin: 20px auto;
