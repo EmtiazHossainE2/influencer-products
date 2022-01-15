@@ -333,7 +333,7 @@ main{
 .customer-review{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background: rgba(206, 196, 200, 0.822);
+    background: rgba(236, 222, 228, 0.986);
     column-gap: 30px;
     padding: 100px 30px;
     color: #f1f1f1;
@@ -342,8 +342,12 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
     color: #3A3A3A;
+    font-weight: bold;
+}
+.review-details h2{
+    color: #E02C6D;
+    font-size: 2em;
 }
 .review-details img{
     width: 98px;
@@ -353,9 +357,8 @@ main{
 .review{
     border-radius: 5%;
     background: #3A3A3A;
-    padding: 100px 20px;
+    padding: 100px 20px 50px;
     position: relative;
-
 }
 .review::before{
     background-image: url('../testimonial-quote.png');
@@ -369,6 +372,14 @@ main{
     left: 50px;
     right: auto;
     background-repeat: no-repeat;
+}
+.review-text{
+    height: 180px;
+    text-align: justify ;
+    font-weight: normal;
+}
+.review .author{
+    margin: 10px 0;
 }
 /* -- Customer-review-area end  -- */
 
