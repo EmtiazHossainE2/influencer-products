@@ -329,6 +329,49 @@ main{
      Main Area End  
 -------------------*/
 
+/* -- Customer-review-area start  -- */
+.customer-review{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgba(206, 196, 200, 0.822);
+    column-gap: 30px;
+    padding: 100px 30px;
+    color: #f1f1f1;
+}
+.review-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #3A3A3A;
+}
+.review-details img{
+    width: 98px;
+    height: 26px;
+    margin-bottom: 20px;
+}
+.review{
+    border-radius: 5%;
+    background: #3A3A3A;
+    padding: 100px 20px;
+    position: relative;
+
+}
+.review::before{
+    background-image: url('../testimonial-quote.png');
+    content: "";
+    position: absolute;
+    width: 43px;
+    height: 38px;
+    background-size: 43px;
+    top: 40px;
+    bottom: auto;
+    left: 50px;
+    right: auto;
+    background-repeat: no-repeat;
+}
+/* -- Customer-review-area end  -- */
+
 
 /*---------------
      Footer Area Start  
