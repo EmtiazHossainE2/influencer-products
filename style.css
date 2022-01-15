@@ -312,7 +312,6 @@ main{
     .item-stock{
         color: #787885;
         font-size: 14px;
-        font-weight: bold;
     }
     .alink {
         text-align: right;
@@ -325,6 +324,39 @@ main{
     }
     /*---------- Collection area end ---------- */
 
+
 /*---------------
      Main Area End  
+-------------------*/
+
+
+/*---------------
+     Footer Area Start  
+-------------------*/
+.footer-area{
+    background: #0a0826;
+    color: #fff;
+    text-align: center;
+    padding : 50px 0;
+}
+footer h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    padding: 8px 0;
+}
+.social-icon .fab{
+    margin: 17px 16px 50px ;
+    font-size: 32px;
+    color: #fff;
+}
+.social-icon .fab:hover{
+    color: blue;
+}
+/*---------------
+     Footer  Area End  
 -------------------*/
