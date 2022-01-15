@@ -320,7 +320,7 @@ main{
     }
     .alink {
         text-align: right;
-        margin: 50px 0 100px;
+        margin: 50px 0 50px;
     }
     .alink a{
         text-decoration: none;
@@ -338,9 +338,8 @@ main{
 .customer-review{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background: rgba(236, 222, 228, 0.986);
     column-gap: 30px;
-    padding: 100px 30px;
+    padding: 0 30px 50px 30px;
     color: #f1f1f1;
 }
 .review-details{
