@@ -236,8 +236,8 @@ nav{
         padding: 0 30px;
     }
     .sponsor{
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
         align-items: center;
     }
     .sponsor li{
@@ -414,3 +414,47 @@ footer p{
 /*---------------
      Footer  Area End  
 -------------------*/
+
+ /* -------------------- 
+    Media Query  
+-------------------- */ 
+    /* Tablet Device */ 
+    @media only screen and (max-width:1024px){
+        h1{
+            font-size: 28px;
+        }
+        .header-banner{
+            flex-direction: column;
+            height: auto;
+        }
+        .banner-title::after{
+            position: center;
+        }
+        #banner-left{
+            order: 2;
+            margin-bottom: 30px;
+        }
+        #banner-right{
+            order: 1;
+        }
+        .sponsor{
+            grid-template-columns: repeat(4,1fr);
+        }
+        .popular-items{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .customer-review{
+            grid-template-columns: repeat(1,1fr);
+            column-gap: 30px;
+            padding: 30px;
+        }
+        .review{
+            margin: 20px 0;
+        }
+        .review-text{
+            height: auto;
+        }
+        .alink{
+            margin-bottom: 40px;
+        }
+    }
