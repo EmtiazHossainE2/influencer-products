@@ -23,6 +23,9 @@ h1{
     font-size: 52px;
     color: #E02C6D;
 }
+.cart{
+    display: none;
+}
 /* ------------- 
     Common styles End
 ------------------*/
@@ -456,5 +459,29 @@ footer p{
         }
         .alink{
             margin-bottom: 40px;
+        }
+
+        /* Mobile  Device */ 
+        @media only screen and (max-width:776px){
+            .navigation{
+                display: none;
+            }
+            .cart{
+                display: block;
+                display: flex;
+                justify-content: flex-end;
+                position: relative;
+                top: -30px;
+                color: #3A3A3A;
+            }
+            .sponsor{
+                grid-template-columns: repeat(2,1fr);
+            }
+            .popular-items{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .alink{
+                margin: 20px auto;
+            }
         }
     }
