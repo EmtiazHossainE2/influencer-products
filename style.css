@@ -366,7 +366,7 @@ main{
     position: relative;
 }
 .review::before{
-    background-image: url('../testimonial-quote.png');
+    background-image: url('./testimonial-quote.png');
     content: "";
     position: absolute;
     width: 43px;
